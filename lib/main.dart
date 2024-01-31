@@ -61,9 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.go('/login'),
         tooltip: 'Increment',
-          child: const Text('Go to the Details screen'),
-        
-
+        child: const Text('Login'),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
